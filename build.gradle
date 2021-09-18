@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.github.pjfanning'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.github.pjfanning.poi.ooxml.CompareLiteJars'
+}
